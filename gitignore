@@ -1,0 +1,16 @@
+
+# Ignore everything
+*
+
+# But not these files...
+!*.py
+!*.ipynb
+!*.txt
+!/results/
+!Status.pptx
+
+# Explicitly exclude all files in any directory named results
+!results/**/*
+
+# Exclude all subdirectories of results
+!results/**/
