@@ -1,0 +1,33 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+*.pdf
+
+# But not these files...
+!*.py
+!*.ipynb
+!*.txt
+!/results/
+!Status.pptx
+
+# Explicitly exclude all files in any directory named results
+!results/**/*
+
+# Exclude all subdirectories of results
+!results/**/
